@@ -1,1 +1,109 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+#container{
+    width:600px;
+    height:670px;
+    background-image: url(pics/coffey.jpg);
+    background-repeat: no-repeat;
+    border: 0.1em solid;
+}
+#topbar{
+    height: 20px;
+    background-color: #51473D;
+    color: #FFFFFF;
+    font-style: italic;
+    font-size: 11px;
+    text-align: right;
+    padding-top: 2px;
+    padding-right: 2px;
+    font-family: Verdana, Times;
+}
+#menu > a{
+    display: none;
+}
+#menu{
+    background-color: #51473D;
+    height: 40px;
+    margin-top: 178px;
+}
+#menu ul{
+    float: left;
+    margin-left: 0;
+    padding-left: 10px;
+}
+#menu a{
+    float: left;
+    text-decoration: none;
+    color: #FFF2D9;
+}
+#menu ul li{
+    display: block;
+    text-decoration: none;
+    list-style-type: none;
+    width: 7em;
+    float: left;
+    margin-left: 0.1em;
+    background-color: #736D62;
+    padding: 4px 10px 4px 10px;
+}
+#menu ul li.active{
+    background-color: #FFF2D9;
+}
+#menu ul li.active a{
+    color: #51473D;
+}
+#menu ul li:hover{
+    background: #8F8279;
+}
+#menu a:link{
+    color: #8F8279;
+}
+
+#content{
+    background-color: #FFF2D9;
+}
+#maincontent{
+    width: 370px;
+    padding: 5px;
+    float: left;
+}
+img{
+    float: left;
+    padding-right: 4px;
+}
+#subcontent{
+    width: 190px;
+    padding: 4px;
+    float: left;
+    border-left: 1px dotted;
+    font-size: 10px;
+}
+body{
+    color: #736D62;
+    font-family: Verdana, Times;
+    font-size: 12px;
+    line-height: 20px;
+}
+ul li{
+    list-style-type: none;
+}
+h2{
+    font-family: Verdana, Times;
+    font-size: 13px;
+    color: #000000;
+}
+#maincontent h1{
+    font-family: Verdana, Times;
+    font-size: 25px;
+}
+#subcontent h1{
+    font-family: Verdana, Times;
+    font-size: 15px;
+}
+#bottomcontent{
+    height: 20px;
+    clear: left;
+    font-style: italic;
+    font-size: 11px;
+    padding-left: 2px;
+}
+/*#51473D*/
