@@ -1,7 +1,7 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
 #container{
     width:600px;
-    height:670px;
+    height:612px;
     background-image: url(pics/coffey.jpg);
     background-repeat: no-repeat;
     border: 0.1em solid;
@@ -46,7 +46,7 @@
     padding: 4px 10px 4px 10px;
 }
 #menu ul li.active{
-    background-color: #FFF2D9;
+    background-color: #EAE7D2;
 }
 #menu ul li.active a{
     color: #51473D;
@@ -59,7 +59,7 @@
 }
 
 #content{
-    background-color: #FFF2D9;
+    background-color: #EAE7D2;
 }
 #maincontent{
     width: 370px;
@@ -83,7 +83,7 @@ body{
     font-size: 12px;
     line-height: 20px;
 }
-ul li{
+ul{
     list-style-type: none;
 }
 h2{
