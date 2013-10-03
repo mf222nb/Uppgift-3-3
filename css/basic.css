@@ -1,7 +1,7 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
 #container{
     width:600px;
-    height:612px;
+    height:601px;
     background-image: url(pics/coffey.jpg);
     background-repeat: no-repeat;
     border: 0.1em solid;
@@ -39,14 +39,15 @@
     display: block;
     text-decoration: none;
     list-style-type: none;
-    width: 7em;
+    width: auto;
     float: left;
     margin-left: 0.1em;
     background-color: #736D62;
-    padding: 4px 10px 4px 10px;
+    padding: 4px 15px 4px 15px;
 }
 #menu ul li.active{
     background-color: #EAE7D2;
+    margin-top: 1px;
 }
 #menu ul li.active a{
     color: #51473D;
@@ -55,45 +56,56 @@
     background: #8F8279;
 }
 #menu a:link{
-    color: #8F8279;
+    color: #EAE7D2;
+}
+#menu a:first-letter{
+    text-transform: capitalize;
 }
 
 #content{
     background-color: #EAE7D2;
+    border-top: 1px solid #FFFFFF;
 }
 #maincontent{
     width: 370px;
     padding: 5px;
     float: left;
+    border-right: 1px dotted;
+     margin-right: 8px;
 }
 img{
     float: left;
     padding-right: 4px;
 }
-#subcontent{
-    width: 190px;
-    padding: 4px;
-    float: left;
-    border-left: 1px dotted;
-    font-size: 10px;
-}
+
+
 body{
     color: #736D62;
     font-family: Verdana, Times;
     font-size: 12px;
     line-height: 20px;
 }
-ul{
-    list-style-type: none;
-}
 h2{
     font-family: Verdana, Times;
     font-size: 13px;
-    color: #000000;
+    color: #736D62;
 }
-#maincontent h1{
+
+#subcontent{
+    padding: 4px;
+    font-size: 10px;
+}
+#subcontent ul li{
+    list-style-type: none;
     font-family: Verdana, Times;
-    font-size: 25px;
+}
+#subcontent a:link{
+    color: #736D62;
+}
+
+#maincontent h1{
+    font-family: Times;
+    font-size: 30px;
 }
 #subcontent h1{
     font-family: Verdana, Times;
